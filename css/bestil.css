@@ -1,0 +1,16 @@
+body {
+  background-image: url(../billeder/bestil_background.webp);
+  background-position: 62.2% 0%;
+  background-size: 260%;
+}
+article {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+h1 {
+  color: #ffff15;
+  font-size: 3rem;
+}
