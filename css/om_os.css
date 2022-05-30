@@ -6,7 +6,7 @@ body {
   margin: 15px;
   background-image: url(/billeder/lamper.JPG);
   background-size: cover;
-  background-position: 100% 20%;
+  background-position: 100% 40%;
 }
 
 p {
@@ -22,18 +22,26 @@ h1 {
 }
 
 @media (min-width: 800px) {
-  .grid_1-1 {
+  /* .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
     gap: 20px;
-  }
-  body {
+  } */
+  main {
     max-width: 1000px;
     margin: 0 auto;
+    background-position: 0% 40%;
   }
-
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: blue;
+  }
   p {
-    margin-top: 0px;
+    margin: 20px;
+    font-size: 30px;
+  }
+  .mapouter {
   }
 }
