@@ -10,13 +10,31 @@
     <link rel="stylesheet" href="css/generel.css" />
   </head>
   <body>
-    <nav>
-      <button>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </nav>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html" class="nav-link"><h2>Forside</h2></a>
+          </li>
+          <li>
+            <a href="bestil.html" class="nav-link"><h2>Bestil</h2></a>
+          </li>
+          <li>
+            <a href="menu.html" class="nav-link"><h2>Menu</h2></a>
+          </li>
+          <li>
+            <a href="om_os.html" class="nav-link"><h2>Om os</h2></a>
+          </li>
+        </ul>
+        <button class="burger">
+          <div class="bars">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </button>
+      </nav>
+    </header>
     <main>
       <section class="grid_1-2">
         <article class="info">
@@ -27,8 +45,34 @@
             <u>39189109</u>
           </h1>
         </article>
-        <article class="form"></article>
+        <article class="order">
+          <form>
+            <label for="name">Navn:</label> <br />
+            <input placeholder="fx: Lars" id="cost_name" name="cname" type="text" />
+
+            <br />
+            <label for="phone_number"
+              >Tlf: <br />
+              <input placeholder="fx: 39300253" id="phone_num" name="pnum" type="tel" />
+            </label>
+            <br />
+            <label for="time">Hvornår?:</label> <br />
+            <h3>Hurtigst muligt:</h3>
+            <input id="time" name="time" type="checkbox" />
+            <br />
+            <h3>(tidligst om 30 min.) Kl:</h3>
+            <input placeholder="14:30" id="time" name="time" type="time" />
+
+            <br />
+            <label for="order_number"> Skriv numrene på det du vil bestille: </label>
+            <input placeholder="fx: nummer 43 med ekstra ost" type="text" name="order_num" id="ordern" />
+
+            <button>Send</button>
+          </form>
+        </article>
       </section>
     </main>
+    <script src="js/login.js"></script>
+    <script src="js/bestil.js"></script>
   </body>
 </html>
