@@ -17,7 +17,9 @@
             <a href="index.html" class="nav-link"><h2>Forside</h2></a>
           </li>
           <li>
-            <a href="bestil.html" class="nav-link"><h2>Bestil</h2></a>
+            <a href="bestil.html" class="nav-link"
+              ><h2><u>Bestil</u></h2></a
+            >
           </li>
           <li>
             <a href="menu.html" class="nav-link"><h2>Menu</h2></a>
@@ -47,24 +49,30 @@
         </article>
         <article class="order">
           <form>
-            <label for="name">Navn:</label> <br />
-            <input placeholder="fx: Lars" id="cost_name" name="cname" type="text" />
+            <label for="name"
+              ><h1>Navn:</h1>
 
-            <br />
+              <input placeholder="fx: Lars" id="cost_name" name="cname" type="text" />
+            </label>
+
             <label for="phone_number"
-              >Tlf: <br />
+              ><h1>Tlf:</h1>
+
               <input placeholder="fx: 39300253" id="phone_num" name="pnum" type="tel" />
             </label>
-            <br />
-            <label for="time">Hvornår?:</label> <br />
-            <h3>Hurtigst muligt:</h3>
-            <input id="time" name="time" type="checkbox" />
-            <br />
-            <h3>(tidligst om 30 min.) Kl:</h3>
-            <input placeholder="14:30" id="time" name="time" type="time" />
 
-            <br />
-            <label for="order_number"> Skriv numrene på det du vil bestille: </label>
+            <label for="time"> <h1>Hvornår?:</h1> </label>
+
+            <label class="tid">
+              <h3>Hurtigst muligt:</h3>
+              <input id="time" name="time" type="checkbox" />
+            </label>
+
+            <label class="tid" for="">
+              <h3>(tidligst om 30 min.) Kl:</h3>
+              <input placeholder="14:30" id="time" name="time" type="time" />
+            </label>
+            <label for="order_number"> <h1>Skriv hvad du vil bestille:</h1> </label>
             <input placeholder="fx: nummer 43 med ekstra ost" type="text" name="order_num" id="ordern" />
 
             <button>Send</button>
