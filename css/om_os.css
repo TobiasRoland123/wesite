@@ -42,6 +42,13 @@ h1 {
     margin: 20px;
     font-size: 30px;
   }
+  iframe {
+    max-width: 400px;
+  }
   .mapouter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
 }
