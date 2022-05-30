@@ -1,18 +1,39 @@
-img {
-  width: 100%;
+video {
+  max-width: 100%;
+}
+
+body {
+  margin: 15px;
+  background-image: url(/billeder/lamper.JPG);
+  background-size: cover;
+  background-position: 100% 20%;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  color: yellow;
 }
 
 h1 {
   color: yellow;
+  text-align: center;
 }
 
 @media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
   }
   body {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
+  }
+
+  p {
+    margin-top: 0px;
   }
 }
