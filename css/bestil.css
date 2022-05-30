@@ -4,6 +4,17 @@ body {
   background-size: 260%;
 }
 
+h1 {
+  color: #ffff15;
+  font-size: 3rem;
+}
+
+h3 {
+  color: #005fed;
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin: 0% 0 7px 0;
+}
 /* navbar og burger menu */
 
 .navbar {
@@ -18,6 +29,10 @@ a {
   color: white;
   text-decoration: none;
   color: #ffff15;
+}
+
+a h2 {
+  font-weight: normal;
 }
 
 .nav-menu {
@@ -76,7 +91,20 @@ a {
   margin-top: 25%;
 }
 
+.info h1 {
+  font-weight: normal;
+}
+
 form {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form h1 {
+  display: block;
+  color: #005fed;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 8% 0 2% 0;
 }
 
 label {
@@ -84,31 +112,38 @@ label {
   color: #005fed;
   font-size: 1.6rem;
 }
+
+.tid {
+  display: flex;
+  justify-content: space-between;
+  margin: 7% 5% 7%;
+}
+
 input {
   display: block;
   min-height: 10%;
 }
 
+form button {
+  background-color: #005fed;
+  border: none;
+  color: #ffff15;
+  width: 25%;
+  height: 21%;
+  padding: 4% 0;
+  margin: 10% 0;
+  border-radius: 10px;
+}
+
 .order {
   background-color: white;
   margin: 30% 6% 15%;
-  padding: 10% 6%;
+  padding: 5% 10% 6%;
 }
 
 #ordern {
   height: 243px;
   width: 98%;
-}
-
-h1 {
-  color: #ffff15;
-  font-size: 3rem;
-}
-
-h3 {
-  color: #005fed;
-  font-size: 0.7rem;
-  font-weight: normal;
 }
 
 @media (min-width: 600px) {
