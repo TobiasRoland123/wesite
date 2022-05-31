@@ -48,15 +48,29 @@ label {
   font-size: 1.6rem;
 }
 
+#time2 {
+  width: 22px;
+  top: -25%;
+  position: relative;
+  left: -53%;
+}
+
 .tid {
   display: flex;
   justify-content: space-between;
   margin: 7% 5% 7%;
 }
 
-input {
+.skrivfelt {
   display: block;
-  min-height: 10%;
+  min-height: 37px;
+  background-color: #ebebeb;
+  border: none;
+  padding: 0 31% 0 6%;
+}
+
+.timepick {
+  font-size: 1rem;
 }
 
 form button {

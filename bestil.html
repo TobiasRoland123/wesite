@@ -52,30 +52,31 @@
             <label for="name"
               ><h1>Navn:</h1>
 
-              <input placeholder="fx: Lars" id="cost_name" name="cname" type="text" />
+              <input class="skrivfelt" placeholder="fx: Lars" id="cost_name" name="cname" type="text" />
             </label>
 
             <label for="phone_number"
               ><h1>Tlf:</h1>
 
-              <input placeholder="fx: 39300253" id="phone_num" name="pnum" type="tel" />
+              <input class="skrivfelt" placeholder="fx: 39300253" id="phone_num" name="pnum" type="tel" />
             </label>
 
             <label for="time"> <h1>Hvornår?:</h1> </label>
 
             <label class="tid">
-              <h3>Hurtigst muligt:</h3>
-              <input id="time" name="time" type="checkbox" />
+              <h3 id="hurtigst">Hurtigst muligt:</h3>
+              <input id="time2" name="time" type="checkbox" />
             </label>
 
             <label class="tid" for="">
-              <h3>(tidligst om 30 min.) Kl:</h3>
+              <h3>(tidligst om 30 min.)</h3>
+              <h3 class="timepick">Kl:</h3>
               <input placeholder="14:30" id="time" name="time" type="time" />
             </label>
             <label for="order_number"> <h1>Skriv hvad du vil bestille:</h1> </label>
-            <input placeholder="fx: nummer 43 med ekstra ost" type="text" name="order_num" id="ordern" />
+            <input class="skrivfelt" placeholder="fx: nummer 43 med ekstra ost" type="text" name="order_num" id="ordern" />
 
-            <button>Send</button>
+            <button class="send_order">Send</button>
           </form>
         </article>
       </section>
