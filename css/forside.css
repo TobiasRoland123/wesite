@@ -102,4 +102,8 @@
     color: #ffff15;
     text-transform: uppercase;
   }
+}
 
+body {
+  background-image: url("http://luta.dk/kea/Ninospizzera/Background.mp4");
+}
