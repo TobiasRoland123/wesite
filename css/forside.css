@@ -9,7 +9,6 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    overflow: hidden;
   }
   .section h1 {
     grid-area: 1/1/5/7;
