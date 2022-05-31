@@ -21,6 +21,10 @@ h1 {
   text-align: center;
 }
 
+.footerp {
+  font-size: small;
+}
+
 @media (min-width: 800px) {
   /* .grid_1-1 {
     display: grid;
@@ -39,6 +43,7 @@ h1 {
     background-color: blue;
   }
   p {
+    text-align: center;
     margin: 20px;
     font-size: 30px;
   }
@@ -47,8 +52,18 @@ h1 {
   }
   .mapouter {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 0 auto; */
+  }
+
+  .anmeld {
+    width: 400px;
+  }
+
+  .grid {
+    display: flex;
+
+    justify-content: space-between;
   }
 }
