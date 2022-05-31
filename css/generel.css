@@ -93,6 +93,14 @@ a h2 {
   right: 0;
 }
 
+/* Footer */
+
+.footerp {
+  text-align: center;
+  padding-top: 30px;
+  color: #ffff15;
+}
+
 @media (min-width: 600px) {
   /* navbar */
 
@@ -149,11 +157,4 @@ a h2 {
     right: 0%;
   }
   /* *************** nav slut   ********************** */
-
-  /* Footer */
-  .footerp {
-    text-align: center;
-    padding-top: 30px;
-    color: #ffff15;
-  }
 }
