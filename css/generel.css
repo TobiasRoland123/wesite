@@ -149,4 +149,11 @@ a h2 {
     right: 0%;
   }
   /* *************** nav slut   ********************** */
+
+  /* Footer */
+  .footerp {
+    text-align: center;
+    padding-top: 30px;
+    color: #ffff15;
+  }
 }

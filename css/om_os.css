@@ -23,6 +23,7 @@ h1 {
 
 .footerp {
   font-size: small;
+  text-align: center;
 }
 
 @media (min-width: 800px) {
