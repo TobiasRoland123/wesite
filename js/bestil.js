@@ -1,7 +1,5 @@
-// const burger = document.querySelector(".burger");
-// const menu = document.querySelector(".nav-menu");
+const send_btn = document.querySelector(".send_order");
 
-// burger.addEventListener("click", () => {
-//   burger.classList.toggle("active");
-//   menu.classList.toggle("active");
-// });
+send_btn.addEventListener("click", () => {
+  window.alert("Din ordre er sendt");
+});
