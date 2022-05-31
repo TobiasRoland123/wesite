@@ -139,7 +139,7 @@ a h2 {
   }
 
   .burger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(13px) rotate(45deg);
   }
   .burger.active .bar:nth-child(3) {
     transform: translateY(-22px) rotate(-45deg);
