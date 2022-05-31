@@ -32,14 +32,14 @@ p {
 
 article {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   margin-bottom: 80px;
 }
 
 article img,
 article h1 {
-  grid-column: 1 / span 1;
+  grid-column: 1 / span 3;
   grid-row: 1 / span 1;
 }
 
@@ -51,7 +51,7 @@ article h1 {
 
 article.even img,
 article.even h1 {
-  grid-column: 2 / span 1;
+  grid-column: 3 / span 5;
   grid-row: 1 / span 1;
 }
 
@@ -61,6 +61,5 @@ article.even h1 {
   font-size: 4rem;
 }
 
-.col {
-  margin-top: 50 px;
+.priser
 }
