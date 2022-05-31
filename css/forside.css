@@ -69,9 +69,6 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .video-container {
-  }
-
   .section h1 {
     text-align: center;
     font-size: 2rem;
