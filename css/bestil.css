@@ -15,7 +15,10 @@ h3 {
   font-weight: normal;
   margin: 0% 0 7px 0;
 }
-
+.footerp {
+  text-align: center;
+  color: yellow;
+}
 /* main */
 .info {
   display: flex;
