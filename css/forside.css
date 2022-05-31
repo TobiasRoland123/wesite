@@ -69,6 +69,16 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .video-container {
+    display: none;
+  }
+
+  body {
+    background-image: url(/billeder/italymobile.webp);
+    background-size: cover;
+    overflow: hidden;
+  }
+
   .section h1 {
     text-align: center;
     font-size: 2rem;
@@ -93,3 +103,7 @@
     text-transform: uppercase;
   }
 }
+
+/* body {
+  background-image: url("http://luta.dk/kea/Ninospizzera/Background.mp4");
+} */
