@@ -4,6 +4,10 @@ body {
   background-size: 260%;
 }
 
+main {
+  /* max-width: 1200px; */
+}
+
 h1 {
   color: #ffff15;
   font-size: 3rem;
@@ -49,10 +53,8 @@ label {
 }
 
 #time2 {
-  width: 22px;
-  top: -25%;
-  position: relative;
-  left: -53%;
+  width: 28px;
+  margin: 0% 44% 2% 0%;
 }
 
 .tid {
@@ -63,7 +65,7 @@ label {
 
 .skrivfelt {
   display: block;
-  min-height: 37px;
+  min-height: 40px;
   background-color: #ebebeb;
   border: none;
   padding: 0 31% 0 6%;
@@ -88,20 +90,53 @@ form button {
   background-color: white;
   margin: 30% 6% 15%;
   padding: 5% 10% 6%;
+  overflow: hidden;
 }
 
 #ordern {
   height: 243px;
   width: 98%;
+  padding: 3% 44% 53% 6%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   .grid_1-2 {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 3fr 2fr;
+  }
+
+  form h1 {
+    margin: 1% 0 1% 0;
+  }
+
+  .info {
+    order: 2;
+    margin-top: 0;
   }
   .order {
-    margin: 13% 6% 15%;
-    padding: 10% 6%;
+    margin: 0% 6% 15%;
+    padding: 0% 6%;
+    order: 1;
+    max-width: 510px;
+  }
+
+  #ordern {
+    height: auto;
+    width: 100%;
+    padding: 0% 44% 33% 6%;
+  }
+
+  label {
+    display: flex;
+    margin: 4% 0 0 0%;
+    justify-content: space-between;
+  }
+
+  #time2 {
+    margin: 0% 57% 2% 0%;
+  }
+
+  .tid {
+    margin: 3% 4% 5%;
   }
 }
