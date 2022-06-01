@@ -28,6 +28,7 @@
   }
 
   /* navbar og burgermenu */
+
   .bar {
     background-color: var(--secondary-clr);
   }
@@ -37,16 +38,16 @@
   }
   .burger.active .bar:nth-child(2) {
     opacity: 0;
-    color: var(--primary-clr);
+    background-color: var(--primary-clr);
   }
 
   .burger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-    color: var(--primary-clr);
+    background-color: var(--primary-clr);
   }
   .burger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-    color: var(--primary-clr);
+    background-color: var(--primary-clr);
   }
 
   /* burgermenu slut */
