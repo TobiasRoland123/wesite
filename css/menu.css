@@ -11,13 +11,6 @@
     inline-size: 100%;
   }
 
-  body {
-    margin-left: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    /* overflow: hidden; */
-  }
-
   h1 {
     color: #fffe15;
     font-weight: 550;
@@ -158,13 +151,14 @@
   .menupunkt > p {
     justify-self: start;
     align-self: end;
-    font-size: 27px;
+    font-size: 15px;
     font-style: italic;
     margin-left: 40px;
   }
 
   .menupunkt > div {
     align-self: end;
+    font-size: 10px;
   }
 
   .menupunkt_ps {
@@ -177,13 +171,14 @@
   .menupunkt_ps > p {
     justify-self: start;
     align-self: end;
-    font-size: 27px;
+    font-size: 15px;
     font-style: italic;
     margin-left: 40px;
   }
 
   .menupunkt_ps > div {
     align-self: end;
+    font-size: 10px;
   }
 }
 
