@@ -46,6 +46,7 @@ a {
 
 a h2 {
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 .nav-menu {
