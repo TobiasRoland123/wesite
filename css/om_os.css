@@ -4,7 +4,7 @@ video {
 
 body {
   margin: 15px;
-  background-image: url(/billeder/lamper.webp);
+  background-image: url(../billeder/lamper.webp);
   background-size: cover;
   background-position: 100% 40%;
 }
