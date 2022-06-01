@@ -1,9 +1,10 @@
 video {
   max-width: 100%;
+  margin: 3% 0 10% 0;
 }
 
 body {
-  margin: 0 auto;
+  margin: 0 3%;
   background-image: url(../billeder/lamper.webp);
   background-size: cover;
   background-position: 100% 40%;
@@ -14,11 +15,13 @@ p {
   margin-bottom: 20px; */
   margin: 20px;
   color: var(--primary-clr);
+  font-size: 1.5rem;
 }
 
 h1 {
   color: var(--primary-clr);
   text-align: center;
+  margin: 8% 0 10% 0;
 }
 
 .mapouter {
@@ -44,10 +47,16 @@ h1 {
     margin: 0 auto;
     background-position: 0% 40%;
   }
+
+  video {
+    margin: 0;
+  }
+
   h1 {
     text-align: center;
     font-size: 50px;
     background-color: var(--secondary-clr);
+    margin: 0;
   }
   p {
     text-align: center;
@@ -62,15 +71,26 @@ h1 {
     /* justify-content: center;
     align-items: center; */
     /* margin: 0 auto; */
+    margin: 0;
   }
 
   .anmeld {
-    width: 400px;
+    margin: 4% 0% 0% 0%;
+  }
+
+  .anmeld_plus_tekst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .anmeld_plus_tekst p {
+    margin: 9% 0 0 0;
   }
 
   .grid {
-    display: flex;
-
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4% 0 0 0;
+    gap: 3%;
   }
 }
