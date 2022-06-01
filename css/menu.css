@@ -84,12 +84,13 @@
     margin-left: 10px;
     margin-top: 30px;
     color: var(--secondary-clr);
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
 
   h2 {
     color: #154bff;
     font-weight: 550;
+    margin-top: 10px;
   }
 
   p {
@@ -104,7 +105,7 @@
     color: #154bff;
   }
   .header h1 {
-    font-size: 90px;
+    font-size: 50px;
     margin-left: 10px;
     margin-top: 30px;
     color: #154bff;
@@ -151,6 +152,7 @@
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-block-start: 30px;
   }
 
   .menupunkt > p {
@@ -169,6 +171,7 @@
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-block-start: 30px;
   }
 
   .menupunkt_ps > p {
