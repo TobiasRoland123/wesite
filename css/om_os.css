@@ -21,6 +21,12 @@ h1 {
   text-align: center;
 }
 
+.mapouter{
+  display: flex;
+justify-content: center;
+margin: 0 auto 7%;
+}
+
 .footerp {
   font-size: small;
   text-align: center;
