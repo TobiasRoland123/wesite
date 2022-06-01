@@ -111,6 +111,10 @@ form button {
     background-size: cover;
   }
 
+  main {
+    margin-bottom: 4%;
+  }
+
   .grid_1-2 {
     display: grid;
     grid-template-columns: 3fr 2fr;
