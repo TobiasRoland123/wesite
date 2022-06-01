@@ -3,22 +3,28 @@ video {
 }
 
 body {
-  margin: 15px;
-  background-image: url(/billeder/lamper.webp);
+  margin: 0 auto;
+  background-image: url(../billeder/lamper.webp);
   background-size: cover;
   background-position: 100% 40%;
 }
 
 p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-  color: yellow;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  margin: 20px;
+  color: var(--primary-clr);
 }
 
 h1 {
-  color: yellow;
+  color: var(--primary-clr);
   text-align: center;
+}
+
+.mapouter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 7%;
 }
 
 .footerp {
@@ -41,7 +47,7 @@ h1 {
   h1 {
     text-align: center;
     font-size: 50px;
-    background-color: blue;
+    background-color: var(--secondary-clr);
   }
   p {
     text-align: center;

@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  --primary-clr: #ffff15;
+  --secondary-clr: #154bff;
+}
 
 img {
   width: 100%;
@@ -37,11 +41,12 @@ li {
 a {
   color: white;
   text-decoration: none;
-  color: #ffff15;
+  color: var(--primary-clr);
 }
 
 a h2 {
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 .nav-menu {
@@ -53,7 +58,7 @@ a h2 {
   height: 100%;
   gap: 25px;
   right: -100%;
-  background-color: #154bff;
+  background-color: var(--secondary-clr);
 
   align-items: center;
   transition: 0.3s;
@@ -76,7 +81,7 @@ a h2 {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: var(--primary-clr);
 }
 
 .burger.active .bar:nth-child(2) {
@@ -97,8 +102,8 @@ a h2 {
 
 .footerp {
   text-align: center;
-  padding-top: 30px;
-  color: #ffff15;
+  padding-top: 13px;
+  color: var(--primary-clr);
 }
 
 @media (min-width: 600px) {
@@ -112,7 +117,7 @@ a h2 {
     height: 100%;
     gap: 57px;
     right: -100%;
-    background-color: #154bff;
+    background-color: var(--secondary-clr);
 
     transition: 0.3s;
     padding: 20% 0 0 0;
@@ -134,7 +139,7 @@ a h2 {
     height: 4px;
     margin: 13px auto;
     transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: var(--primary-clr);
   }
 
   a h2 {

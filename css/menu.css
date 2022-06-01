@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*------MOBILE---------*/
 
 @media screen and (max-width: 1000px) {
@@ -22,6 +23,72 @@
     color: #fffe15;
     font-weight: 550;
   }
+=======
+img {
+  max-width: 100%;
+  /*align-self: stretch;*/
+  object-fit: cover;
+  aspect-ratio: 10 / 7.2;
+}
+body {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+/* navbar og burgermenu */
+.bar {
+  background-color: black;
+}
+
+li a h2 {
+  color: var(--primary-clr);
+}
+.burger.active .bar:nth-child(2) {
+  opacity: 0;
+  color: var(--primary-clr);
+}
+
+.burger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  color: var(--primary-clr);
+}
+.burger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  color: var(--primary-clr);
+}
+
+/* burgermenu slut */
+
+h1 {
+  color: var(--secondary-clr);
+  font-weight: 550;
+}
+
+h2 {
+  color: var(--secondary-clr);
+  font-weight: 550;
+}
+
+p {
+  color: var(--secondary-clr);
+  margin-bottom: 40px;
+}
+
+.footerp {
+  text-align: center;
+}
+.footerp p {
+  color: var(--secondary-clr);
+}
+.header h1 {
+  font-size: 90px;
+  margin-left: 10px;
+  margin-top: 30px;
+  color: var(--secondary-clr);
+  margin-bottom: 30px;
+}
+>>>>>>> 97d95b26304a19779f9cbcf824682e6eeb40464d
 
   h2 {
     color: #154bff;
@@ -231,5 +298,21 @@
 
   .menupunkt_ps > div {
     align-self: end;
+  }
+}
+
+@media (min-width: 800px) {
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+    background-color: var(--primary-clr);
+  }
+
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+    background-color: var(--primary-clr);
+  }
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-22px) rotate(-45deg);
+    background-color: var(--primary-clr);
   }
 }
