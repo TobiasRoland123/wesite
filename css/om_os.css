@@ -13,18 +13,18 @@ p {
   margin-top: 20px;
   margin-bottom: 20px;
 
-  color: yellow;
+  color: var(--primary-clr);
 }
 
 h1 {
-  color: yellow;
+  color: var(--primary-clr);
   text-align: center;
 }
 
-.mapouter{
+.mapouter {
   display: flex;
-justify-content: center;
-margin: 0 auto 7%;
+  justify-content: center;
+  margin: 0 auto 7%;
 }
 
 .footerp {
@@ -47,7 +47,7 @@ margin: 0 auto 7%;
   h1 {
     text-align: center;
     font-size: 50px;
-    background-color: blue;
+    background-color: var(--secondary-clr);
   }
   p {
     text-align: center;

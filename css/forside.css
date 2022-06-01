@@ -1,7 +1,3 @@
-:root {
-  --primary-clr: #ffff15;
-}
-
 @media screen and (min-width: 1000px) {
   .burger.active .bar:nth-child(2) {
     opacity: 0;

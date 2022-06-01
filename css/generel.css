@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  --primary-clr: #ffff15;
+  --secondary-clr: #154bff;
+}
 
 img {
   width: 100%;
@@ -37,7 +41,7 @@ li {
 a {
   color: white;
   text-decoration: none;
-  color: #ffff15;
+  color: var(--primary-clr);
 }
 
 a h2 {
@@ -53,7 +57,7 @@ a h2 {
   height: 100%;
   gap: 25px;
   right: -100%;
-  background-color: #154bff;
+  background-color: var(--secondary-clr);
 
   align-items: center;
   transition: 0.3s;
@@ -98,7 +102,7 @@ a h2 {
 .footerp {
   text-align: center;
   padding-top: 13px;
-  color: #ffff15;
+  color: var(--primary-clr);
 }
 
 @media (min-width: 600px) {
@@ -112,7 +116,7 @@ a h2 {
     height: 100%;
     gap: 57px;
     right: -100%;
-    background-color: #154bff;
+    background-color: var(--secondary-clr);
 
     transition: 0.3s;
     padding: 20% 0 0 0;

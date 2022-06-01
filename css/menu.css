@@ -16,7 +16,7 @@ body {
 }
 
 li a h2 {
-  color: #fffe15;
+  color: var(--primary-clr);
 }
 .burger.active .bar:nth-child(2) {
   opacity: 0;
@@ -35,17 +35,17 @@ li a h2 {
 /* burgermenu slut */
 
 h1 {
-  color: #fffe15;
+  color: var(--secondary-clr);
   font-weight: 550;
 }
 
 h2 {
-  color: #154bff;
+  color: var(--secondary-clr);
   font-weight: 550;
 }
 
 p {
-  color: #154bff;
+  color: var(--secondary-clr);
   margin-bottom: 40px;
 }
 
@@ -53,13 +53,13 @@ p {
   text-align: center;
 }
 .footerp p {
-  color: #154bff;
+  color: var(--secondary-clr);
 }
 .header h1 {
   font-size: 90px;
   margin-left: 10px;
   margin-top: 30px;
-  color: #154bff;
+  color: var(--secondary-clr);
   margin-bottom: 30px;
 }
 
@@ -136,15 +136,15 @@ article.even h1 {
 @media (min-width: 800px) {
   .burger.active .bar:nth-child(2) {
     opacity: 0;
-    background-color: #ffff15;
+    background-color: var(--primary-clr);
   }
 
   .burger.active .bar:nth-child(1) {
     transform: translateY(13px) rotate(45deg);
-    background-color: #ffff15;
+    background-color: var(--primary-clr);
   }
   .burger.active .bar:nth-child(3) {
     transform: translateY(-22px) rotate(-45deg);
-    background-color: #ffff15;
+    background-color: var(--primary-clr);
   }
 }

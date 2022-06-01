@@ -10,12 +10,12 @@ main {
 }
 
 h1 {
-  color: #ffff15;
+  color: var(--primary-clr);
   font-size: 3rem;
 }
 
 h3 {
-  color: #005fed;
+  color: var(--secondary-clr);
   font-size: 0.9rem;
   font-weight: normal;
   margin: 0% 0 7px 0;
@@ -42,7 +42,7 @@ form {
 
 form h1 {
   display: block;
-  color: #005fed;
+  color: var(--secondary-clr);
   font-size: 1.6rem;
   font-weight: normal;
   margin: 8% 0 2% 0;
@@ -50,7 +50,7 @@ form h1 {
 
 label {
   display: block;
-  color: #005fed;
+  color: var(--secondary-clr);
   font-size: 1.6rem;
 }
 
@@ -78,7 +78,7 @@ label {
 }
 
 form button {
-  background-color: #005fed;
+  background-color: var(--secondary-clr);
   border: none;
   color: #ffff15;
   width: 25%;
