@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .burger.active .bar:nth-child(2) {
     opacity: 0;
     background-color: #ffff15;
@@ -89,7 +89,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .video-container {
     display: none;
   }
