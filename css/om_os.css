@@ -3,16 +3,16 @@ video {
 }
 
 body {
-  margin: 15px;
+  margin: 0 auto;
   background-image: url(../billeder/lamper.webp);
   background-size: cover;
   background-position: 100% 40%;
 }
 
 p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  margin: 20px;
   color: var(--primary-clr);
 }
 
