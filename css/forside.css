@@ -1,4 +1,18 @@
 @media screen and (min-width: 800px) {
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+    background-color: #ffff15;
+  }
+
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+    background-color: #ffff15;
+  }
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-22px) rotate(-45deg);
+    background-color: #ffff15;
+  }
+
   .bar {
     background-color: black;
   }
@@ -78,6 +92,20 @@
 @media only screen and (max-width: 800px) {
   .video-container {
     display: none;
+  }
+
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+    background-color: #ffff15;
+  }
+
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #ffff15;
+  }
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: #ffff15;
   }
 
   body {
