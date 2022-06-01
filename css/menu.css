@@ -9,6 +9,31 @@ body {
   margin-bottom: 30px;
   margin-right: 50px;
 }
+
+/* navbar og burgermenu */
+.bar {
+  background-color: black;
+}
+
+li a h2 {
+  color: #fffe15;
+}
+.burger.active .bar:nth-child(2) {
+  opacity: 0;
+  color: var(--primary-clr);
+}
+
+.burger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  color: var(--primary-clr);
+}
+.burger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  color: var(--primary-clr);
+}
+
+/* burgermenu slut */
+
 h1 {
   color: #fffe15;
   font-weight: 550;
@@ -106,4 +131,20 @@ article.even h1 {
 
 .menupunkt_ps > div {
   align-self: end;
+}
+
+@media (min-width: 800px) {
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+    background-color: #ffff15;
+  }
+
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+    background-color: #ffff15;
+  }
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-22px) rotate(-45deg);
+    background-color: #ffff15;
+  }
 }
