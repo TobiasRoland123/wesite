@@ -71,6 +71,7 @@ a h2:hover {
 
 .burger {
   display: flex;
+  flex-direction: column;
   background: none;
   border: none;
   z-index: 2;
@@ -83,7 +84,7 @@ a h2:hover {
   display: block;
   width: 25px;
   height: 3px;
-  margin: 5px auto;
+  margin: 5px 0 0 auto;
   transition: all 0.3s ease-in-out;
   background-color: var(--primary-clr);
 }
@@ -141,7 +142,7 @@ a h2:hover {
     display: block;
     width: 50px;
     height: 4px;
-    margin: 13px auto;
+    margin: 8px 0 0 auto;
     transition: all 0.3s ease-in-out;
     background-color: var(--primary-clr);
   }
@@ -156,7 +157,7 @@ a h2:hover {
   }
 
   .burger.active .bar:nth-child(1) {
-    transform: translateY(13px) rotate(45deg);
+    transform: translateY(2px) rotate(45deg);
   }
   .burger.active .bar:nth-child(3) {
     transform: translateY(-22px) rotate(-45deg);
