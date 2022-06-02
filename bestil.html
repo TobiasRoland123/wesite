@@ -44,43 +44,40 @@
             <br />
             eller ring på: <br />
 
-            <a href="tel:35352255"
-              ><h1><u>+45 39 18 91 09</u></h1></a
-            >
+            <a href="tel:35352255"><u>+45 39 18 91 09</u></a>
           </h1>
         </article>
         <article class="order">
           <form>
             <label for="name"
-              ><h1>Navn:</h1>
+              >Navn:
 
-              <input class="skrivfelt" placeholder="fx: Lars" id="cost_name" name="cname" type="text" />
+              <input class="skrivfelt" placeholder="fx: Lars" id="name" name="cname" type="text" />
             </label>
 
             <label for="phone_number"
-              ><h1>Tlf:</h1>
+              >Tlf
 
-              <input class="skrivfelt" placeholder="fx: 39300253" id="phone_num" name="pnum" type="tel" />
+              <input class="skrivfelt" placeholder="fx: 39300253" id="phone_number" name="pnum" type="tel" />
             </label>
 
-            <label for="time"> <h1>Hvornår?:</h1> </label>
+            <label for="time"> Hvornår?: </label>
 
             <label class="tid">
-              <h3 id="hurtigst">Hurtigst muligt:</h3>
+              <span>Hurtigst muligt:</span>
               <input id="time2" name="time" type="checkbox" />
             </label>
 
-            <label class="tid" for="">
-              <h3>(tidligst om 30 min.)</h3>
+            <label class="tid">
+              <span>(tidligst om 30 min.) </span>
 
-              <label>
-                <h3 class="timepick">Kl:</h3>
-                <input placeholder="14:30" id="time" name="time" type="time" />
-              </label>
+              <span id="kl">Kl:</span>
+              <input id="time" name="time" type="time" />
             </label>
-            <label for="order_number"> <h1>Skriv hvad du vil bestille:</h1> </label>
-            <input class="skrivfelt" type="text" name="order_num" id="ordern" />
-
+            <label for="ordern" id="bigfelt"
+              >Skriv hvad du vil bestille:
+              <input class="skrivfelt" type="text" name="order_num" id="ordern" />
+            </label>
             <button class="send_order">Send</button>
           </form>
         </article>
@@ -88,7 +85,6 @@
     </main>
     <footer><p class="footerp">©Nino's pizzaria</p></footer>
 
-    <script src="js/login.js"></script>
     <script src="js/bestil.js"></script>
     <script src="js/generel.js"></script>
   </body>
